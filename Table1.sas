@@ -2,7 +2,7 @@ libname wave5 '/home2/andrew/adolescent/twin/phase5/sasdata';
 libname yigong '/accounts/students/yingongz/';
 
 ************************************************************************************;
-**********QUICK ‘TABLE1’ with format using MACRO and ARRAY**************************;
+**********QUICK â€˜TABLE1â€™ with format using MACRO and ARRAY**************************;
 ************************************************************************************;
 
 **Instruction**;
