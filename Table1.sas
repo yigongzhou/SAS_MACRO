@@ -29,6 +29,8 @@ lanorex4 anorex4_x lanorex4_x bn4 bn4l ednarrow edbroad  purgeonly purgedx lpurg
 %LET out=1341;
 ***************************************************************************************************************************************************;
 
+%macro Table1 (varlist,outcome,non_out,out)
+
 **extract statistics for proc means**;
 proc means data= yigong.w5  n sum mean max;
   class  &varlist/missing; 
@@ -204,6 +206,8 @@ ods rtf close;
 title;
 footnote;
 
+
+%mend
 
 
 
