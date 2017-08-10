@@ -3,13 +3,13 @@
 
 %macro DeDup(dsname=, byvar= , duplevel=, nouni=);
 
-/*=========================================
- 针对去重级别（变量，观测）及保留级别（要UNI,不要UNI）
+/*========================================================================================
+ Removing duplicated values based on variables, observations, and whether keep first values
  duplevel= REC|KEY
- nouni=1|0   ;  1: 重复的里面，一个也不要
-                0：重复的里面，取第一个
-产出数据集：dupout, nodupout,uniout
-===========================================*/ 
+ nouni=1|0   ;  1: Remove all from duplicated 
+                0锛欿eep first from duplicated
+Output datasets锛歞upout, nodupout,uniout
+=========================================================================================*/ 
 
 
 
