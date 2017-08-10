@@ -6,7 +6,7 @@
   - DeBlackHole.sas === Help you out if you omit a %Mend or anything.
   - RunQuit.sas === Use it instead of use run or quit.
   
-- DataManagMacro === Manage your data in batches.
+- DataManageMacro === Manage your data in batches.
   - AddFix.sas === Rename, prefix, suffix, in batches.
   - CheckDsVar.sas === Check dataset variables.
   - RmDup.sas === 
